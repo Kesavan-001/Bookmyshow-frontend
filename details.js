@@ -39,6 +39,7 @@ async function fetchMovieDetails(movieId) {
                   <h1 class="mb-4">${movie.title}</h1>
                   <h4 class="mb-4">Director : ${movie.director}</h4>
                   <h4 class="mb-4">Genre : ${movie.genre}</h4>
+                  <h5 class="mb-4">Duration : ${movie.dura}</h5>
                   <h2>About the movie</h2>
                   <p>${movie.description}</p>
                 </div>
